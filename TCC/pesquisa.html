@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Bairros - CAVO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pesquisa de Bairros</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="pesquisa.html">Pesquisa de Bairros</a>
+            <a href="informacoes.html">Informações</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Informe seu bairro na barra de pesquisa abaixo:</h2>
+        <p>É preciso escrever o nome completo e correto.</p>
+        <p>Caso obtenha acentos, por favor, adicione os mesmos.</p>
+
+        <input type="text" id="bairro" placeholder="Digite o nome do bairro">
+        <button onclick="pesquisar()">Pesquisar</button>
+        <div id="resultado"></div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 CAVO. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

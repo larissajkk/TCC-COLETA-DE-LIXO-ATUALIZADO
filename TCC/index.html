@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleta de Lixo - CAVO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao site da CAVO</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="pesquisa.html">Pesquisa de Bairros</a>
+            <a href="informacoes.html">Informações</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Sobre a CAVO</h2>
+        <p>A CAVO é uma empresa especializada em coleta de lixo e gestão de resíduos.</p>
+        <p>Contato: (41) 1234-5678 | email@cavo.com.br</p>
+        
+        <div id="map"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CAVO. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+            const location = { lat: -25.4284, lng: -49.2733 };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: location,
+            });
+            const marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: "Central da CAVO"
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Cor de fundo suave */
+    color: #333; /* Cor de texto */
+}
+
+header {
+    background: #18641a; /* Verde escuro */
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    box-shadow: rgb(252, 252, 252) 0px 20px 30px -10px;
+
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold; /* Aumenta a espessura das letras */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Cor de destaque ao passar o mouse */
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px; /* Limita a largura do conteúdo */
+    margin: auto; /* Centraliza */
+    background-color: white; /* Fundo branco para o conteúdo */
+    border-radius: 8px; /* Bordas arredondadas */
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+h2 {
+    color: #18641a; /* Verde do título */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #18641a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem; /* Espaço acima do rodapé */
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px; /* Bordas arredondadas para o mapa */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px); /* Ajusta a largura do campo de texto */
+    margin-top: 1rem; /* Espaço acima do campo de texto */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #18641a; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    margin-left: 10px; /* Espaço entre o campo de texto e o botão */
+}
+
+button:hover {
+    background-color: #18641a; /* Cor do botão ao passar o mouse */
+}
