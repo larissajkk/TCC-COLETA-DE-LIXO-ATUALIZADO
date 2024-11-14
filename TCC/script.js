@@ -31,15 +31,871 @@ function pesquisar() {
     const resultado = document.getElementById("resultado");
     const bairro = bairroInput.trim();
 
-    if (bairrosCuritiba.includes(bairro)) {
+    if (bairrosCuritiba.includes(bairro)== "ganchinho", "GANCHINHO", "Ganchinho" || bairrosCuritiba.includes(bairro)== "Sítio cercado", "SÍTIO CERCADO", "sítio cercado") {
         // Aqui você pode substituir pelos dados reais da coleta
         resultado.innerHTML = `
             <h3>${bairro}</h3>
-            <p>Pontos de coleta: Rua A, Rua B</p>
-            <p>Horários: 8h - 12h</p>
-            <p>Dias: Segunda e Quinta</p>
+            <p>Pontos de coleta: </p>
+            <p>Lixo que não é lixo: </p>
+            <p>Horários: 16:00 </p>
+            <p>Dias: Quarta-feira </p>
+            <p>Lixo domiciliar: </p>
+            <p>Horários: 07:00 </p>
+            <p>Dias: Segunda-feira, Quarta-feira e Sexta-feira </p>
         `;
     } else {
         resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
     }
+
+    function pesquisar() {
+        const bairroInput = document.getElementById("bairro").value;
+        const resultado = document.getElementById("resultado");
+        const bairro = bairroInput.trim();
+    
+        if (bairrosCuritiba.includes(bairro)== "Umbará" || bairrosCuritiba.includes(bairro)== "umbará", "UMBARÁ" || bairrosCuritiba.includes(bairro)== "Campo de Santana", "CAMPO DE SANTANA", "campo de santana") {
+            // Aqui você pode substituir pelos dados reais da coleta
+            resultado.innerHTML = `
+            <h3>${bairro}</h3>
+            <p>Pontos de coleta: </p>
+            <p>Lixo que não é lixo: : </p>
+            <p>Horários: 07:00</p>
+            <p>Dias: Quarta-feira</p>
+            <p>Lixo domiciliar: </p>
+            <p>Horários: 07:00</p>
+            <p>Dias: Terça-feira, Quinta-feira e Sábado</p>
+            `;
+        } else {
+            resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+        }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
+function pesquisar() {
+    const bairroInput = document.getElementById("bairro").value;
+    const resultado = document.getElementById("resultado");
+    const bairro = bairroInput.trim();
+
+    if (bairrosCuritiba.includes(bairro)== "" || bairrosCuritiba.includes(bairro)== "") {
+        // Aqui você pode substituir pelos dados reais da coleta
+        resultado.innerHTML = `
+        <h3>${bairro}</h3>
+        <p>Pontos de coleta: Rua A, Rua B</p>
+        <p>Lixo que não é lixo: : </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        <p>Lixo domiciliar: </p>
+        <p>Horários: 8h - 12h</p>
+        <p>Dias: Segunda e Quinta</p>
+        `;
+    } else {
+        resultado.innerHTML = "<p style='color: red;'>Bairro inválido.</p>";
+    }
+
+}
+
 }
