@@ -316,111 +316,202 @@ const infoBairros = {
     },
 
     "Batel": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "Bigorrilho": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "Bom Retiro": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "Cabral": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
     "Centro": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "Centro Cívico": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "Cristo Rei": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "Hugo Lange": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
     "Jardim Botânico": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
     "Jardim Social": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
     "Juvevê": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "Mercês": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
     "Prado Velho": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
     "Rebouças": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
     "São Francisco": {
-        lixoreci: "Lixo reciclável: Horários: 07:00",
-        dias: "Dias: Quarta-feira",
-        lixocomum: "Lixo domiciliar: Horários: 07:00",
-        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
     },
 
-    // Adicione mais bairros e suas informações aqui...
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "São Francisco": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Segunda-feira, Quarta-feira e Sexta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    
 };
 
 function mostrarBairros() {
