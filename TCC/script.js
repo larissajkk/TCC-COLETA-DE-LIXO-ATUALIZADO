@@ -1,9 +1,11 @@
+
+
 const bairrosCuritiba = [
     "Ganchinho", "Sitio Cercado", "Umbará", "Abranches", "Atuba", "Bacacheri", "Bairro Alto", "Barreirinha", "Boa Vista", "Cahoeira",
     "Pilarzinho", "Santa Cândida", "São Lourenço", "Taboão", "Tarumã", "Tingui", "Alto Boqueirão", "Boqueirão", "Hauer", "Xaxim",
     "Cajuru", "Capão da Imbuia", "Guabirotuba", "Jardim das Américas", "Uberaba", "Augusta", "Cidade Industrial", "Riviera", "São Miguel", "Água Verde",
     "Campo Comprido", "Fanny", "Fazendinha", "Guaíra", "Lindoia", "Novo Mundo", "Parolin", "Portão", "Santa Quitéria", "Vila Izabel",
-    "Ahú", "Alto da Glória", "Alto da Glória XV", "Batel", "Bigorrilho", "Bom Retiro", "Cabral", "Centro", "Centro Cívico", "Cristo Rei",
+    "Ahú", "Alto da Glória", "Alto da XV", "Batel", "Bigorrilho", "Bom Retiro", "Cabral", "Centro", "Centro Cívico", "Cristo Rei",
     "Hugo Lange", "Jardim Bôtanico", "Jardim Social", "Juvevê", "Mercês", "Prado Velho", "Rebouças", "São Francisco", "Campo de Santana", "Capão Raso",
     "Caximba", "Pinheiro", "Tatuquara", "Butiatuvinha", "Campina do Siqueira", "Campo Comprido", "Cascatinha", "Lamenha Pequena", "Mossungê", "Orleans",
     "Santa Felicidade", "Santo Inácio", "São Braz", "São João", "Seminário", "Vista Alegre"
@@ -292,63 +294,126 @@ const infoBairros = {
         diasLixo: "Dias: Diário"
     },
 
-    "Ganchinho": {
+    "Ahú": {
+        lixoreci: "Lixo reciclável: Horários: 16:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "Alto da Glória": {
+        lixoreci: "Lixo reciclável: Horários: 07:00",
+        dias: "Dias: Terça-feira, quinta-feira e sábado",
+        lixocomum: "Lixo domiciliar: Horários: 19:00",
+        diasLixo: "Dias: Diário"
+    },
+
+    "Alto da XV": {
+        lixoreci: "Lixo reciclável: Horários: 19:00",
+        dias: "Dias: Diário",
+        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+    },
+
+    "Batel": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Bigorrilho": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Bom Retiro": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Cabral": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Centro": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Centro Cívico": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Cristo Rei": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Hugo Lange": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
     },
 
-    "Ganchinho": {
+    "Jardim Botânico": {
+        lixoreci: "Lixo reciclável: Horários: 07:00",
+        dias: "Dias: Quarta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+    },
+
+    "Jardim Social": {
+        lixoreci: "Lixo reciclável: Horários: 07:00",
+        dias: "Dias: Quarta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+    },
+
+    "Juvevê": {
+        lixoreci: "Lixo reciclável: Horários: 07:00",
+        dias: "Dias: Quarta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+    },
+
+    "Mercês": {
+        lixoreci: "Lixo reciclável: Horários: 07:00",
+        dias: "Dias: Quarta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+    },
+
+    "Prado Velho": {
+        lixoreci: "Lixo reciclável: Horários: 07:00",
+        dias: "Dias: Quarta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+    },
+
+    "Rebouças": {
+        lixoreci: "Lixo reciclável: Horários: 07:00",
+        dias: "Dias: Quarta-feira",
+        lixocomum: "Lixo domiciliar: Horários: 07:00",
+        diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+    },
+
+    "São Francisco": {
         lixoreci: "Lixo reciclável: Horários: 07:00",
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
