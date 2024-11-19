@@ -17,12 +17,13 @@
     </header>
 
     <main>
-        <h2>Informe seu bairro na barra de pesquisa abaixo:</h2>
-        <p>É preciso escrever o nome completo e correto.</p>
-        <p>Caso obtenha acentos, por favor, adicione os mesmos.</p>
+        <h2>Escolha um bairro na lista abaixo:</h2>
+        <p>Clique no nome do bairro para ver as informações de coleta.</p>
 
-        <input type="text" id="bairro" placeholder="Digite o nome do bairro">
-        <button onclick="pesquisar()">Pesquisar</button>
+        <div id="bairros-list" class="bairros-container">
+            <!-- A lista será preenchida dinamicamente pelo JavaScript -->
+        </div>
+
         <div id="resultado"></div>
     </main>
     
