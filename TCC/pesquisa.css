@@ -1,0 +1,35 @@
+.bairros-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Colunas automáticas */
+    gap: 20px 30px; /* Espaçamento horizontal (20px) e vertical (30px) */
+    margin-top: 20px;
+    padding: 10px ; /* Espaçamento superior e inferior do contêiner */
+}
+
+.bairro-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.bairro-button:hover {
+    background-color: #45a049;
+}
+
+.bairro-button:active {
+    background-color: #3e8e41;
+}
+
+#resultado {
+    margin-top: 30px; /* Espaço adicional entre o resultado e os botões */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
