@@ -20,6 +20,9 @@ const infoBairros = {
         dias: "Dias: Quarta-feira",
         lixocomum: "Lixo domiciliar: Horários: 07:00",
         diasLixo: "Dias: Segunda-feira, Quarta-feira e Sexta-feira"
+
+
+
     },
     "Sitio Cercado": {
         lixoreci: "Lixo reciclável: Horários: 16:00",
@@ -523,6 +526,11 @@ function mostrarBairros() {
         button.className = "bairro-button"; // Adiciona a classe para estilização
         button.onclick = () => mostrarInformacoes(bairro);
         bairrosList.appendChild(button);
+        button.addEventListener("click", () => {
+            // Scroll suave até o final da página
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: "smooth"})})
     });
 }
 
