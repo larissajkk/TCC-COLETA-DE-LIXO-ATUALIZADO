@@ -1,8 +1,8 @@
 .bairros-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Colunas automáticas */
+    grid-template-columns: repeat(auto-fit, minmax(125px, 2fr)); /* Colunas automáticas */
     gap: 20px 30px; /* Espaçamento horizontal (20px) e vertical (30px) */
-    margin-top: 20px;
+    margin: 20px;
     padding: 10px ; /* Espaçamento superior e inferior do contêiner */
 }
 
